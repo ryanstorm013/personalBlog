@@ -1,0 +1,138 @@
+/* Tarrget */
+
+@font-face {
+    font-family: tarrget;
+    src: url("../Fonts/tarrget/tarrget.ttf");
+}
+
+@font-face {
+    font-family: tarrget3d;
+    src: url("../Fonts/tarrget/tarrget3d.ttf");
+}
+
+@font-face {
+    font-family: tarrget3dital;
+    src: url("../Fonts/tarrget/tarrget3dital.ttf");
+}
+
+@font-face {
+    font-family: tarrgetacad;
+    src: url("../Fonts/tarrget/tarrgetacad.ttf");
+}
+
+@font-face {
+    font-family: tarrgetacadital;
+    src: url("../Fonts/tarrget/tarrgetacadital.ttf");
+}
+
+@font-face {
+    font-family: tarrgetchrome;
+    src: url("../Fonts/tarrget/tarrgetchrome.ttf")
+}
+
+@font-face {
+    font-family: tarrgetchromeital;
+    src: url("../Fonts/tarrget/tarrgetchromeital.ttf")
+}
+
+@font-face {
+    font-family: tarrgetcond;
+    src: url("../Fonts/tarrget/tarrgetcond.ttf")
+}
+
+@font-face {
+    font-family: tarrgetcondital;
+    src: url("../Fonts/tarrget/tarrgetcondital.ttf")
+}
+
+@font-face {
+    font-family: tarrgetengrave;
+    src: url("../Fonts/tarrget/tarrgetengrave.ttf")
+}
+
+@font-face {
+    font-family: tarrgetexpand;
+    src: url("../Fonts/tarrget/tarrgetexpand.ttf")
+}
+
+@font-face {
+    font-family: tarrgetengraveital;
+    src: url("../Fonts/tarrget/tarrgetengraveital.ttf")
+}
+
+@font-face {
+    font-family: tarrgetexpand;
+    src: url("../Fonts/tarrget/tarrgetexpand.ttf")
+}
+
+@font-face {
+    font-family: tarrgetexpandital;
+    src: url("../Fonts/tarrget/tarrgetexpandital.ttf")
+}
+
+@font-face {
+    font-family: tarrgetgrad;
+    src: url("../Fonts/tarrget/tarrgetgrad.ttf");
+}
+
+@font-face {
+    font-family: tarrgetgradital;
+    src: url("../Fonts/tarrget/tarrgetgradital.ttf");
+}
+
+@font-face {
+    font-family: tarrgethalf;
+    src: url("../Fonts/tarrget/tarrgethalf.ttf");
+}
+
+@font-face {
+    font-family: tarrgethalfital;
+    src: url("../Fonts/tarrget/tarrgethalfital.ttf");
+}
+
+@font-face {
+    font-family: tarrgetital;
+    src: url("../Fonts/tarrget/tarrgetital.ttf");
+}
+
+@font-face {
+    font-family: tarrgetlaser;
+    src: url("../Fonts/tarrget/tarrgetlaser.ttf");
+}
+
+@font-face {
+    font-family: tarrgetlaserital;
+    src: url("../Fonts/tarrget/tarrgetlaserital.ttf");
+}
+
+@font-face {
+    font-family: tarrgetleft;
+    src: url("../Fonts/tarrget/tarrgetleft.ttf");
+}
+
+@font-face {
+    font-family: tarrgetout;
+    src: url("../Fonts/tarrget/tarrgetout.ttf");
+}
+
+@font-face {
+    font-family: tarrgetoutital;
+    src: url("../Fonts/tarrget/tarrgetoutital.ttf");
+}
+
+@font-face {
+    font-family: tarrgetplat;
+    src: url("../Fonts/tarrget/tarrgetplat.ttf");
+}
+
+@font-face {
+    font-family: tarrgetplatital;
+    src: url("../Fonts/tarrget/tarrgetplatital.ttf");
+}
+
+/* Bebas Neue */
+
+@font-face {
+    font-family: bebas-neue;
+    src: url("../Fonts/bebas-neue/BebasNeue-Regular.ttf");
+}
