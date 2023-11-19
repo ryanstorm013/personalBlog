@@ -3,16 +3,19 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
+
 export default function AboutMe() {
+
+  
   return (
     <div className="footerColor">
       <Container className=" py-3">
         <Row>
           <Col md={8} lg={6}>
-            <Image
+            <img
               className="profilePic"
-              src="/images/Kazuya_Mishima_TK8.webp"
-              thumbnail
+              src="./images/Kazuya_Mishima_TK8.webp"
+              
               alt="Mishima"
             />
           </Col>
