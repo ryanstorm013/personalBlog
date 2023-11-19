@@ -11,8 +11,9 @@ export default function AboutMe() {
           <Col md={8} lg={6}>
             <Image
               className="profilePic"
-              src="../src/components/images/Kazuya_Mishima_TK8.webp"
+              src="/images/Kazuya_Mishima_TK8.webp"
               thumbnail
+              alt="Mishima"
             />
           </Col>
           <Col md={8} lg={6} className="py-5">

@@ -11,7 +11,7 @@ export default function Cards(myCard) {
 
         <Col xs={8} s={6} lg={3}>
             <Card style={{ width: "18rem" }} bg="dark" className="text-white  border border-dark ">
-              <Card.Img variant="top" src={myCard.image} className="cardImg"/>
+              <Card.Img variant="top" src={myCard.image} alt={myCard.alt} className="cardImg"/>
               <Card.Body>
                 <Card.Title>{myCard.title}</Card.Title>
               </Card.Body>
