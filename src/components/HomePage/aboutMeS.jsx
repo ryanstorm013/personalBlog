@@ -1,7 +1,6 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+import * as mdb from "mdb-react-ui-kit";
+
+
 
 
 export default function AboutMe() {
@@ -9,20 +8,20 @@ export default function AboutMe() {
   
   return (
     <div className="footerColor">
-      <Container className=" py-3">
-        <Row>
-          <Col md={8} lg={6}>
+      <mdb.MDBContainer className=" py-3">
+        <mdb.MDBRow>
+          <mdb.MDBCol md={8} lg={6}>
             <img
-              className="profilePic"
-              src="./images/Kazuya_Mishima_TK8.webp"
+              className="profilePic thumbnailBorder"
+              src="./images/ColorTurntable.jpg"
               
               alt="Mishima"
             />
-          </Col>
-          <Col md={8} lg={6} className="py-5">
+          </mdb.MDBCol>
+          <mdb.MDBCol md={8} lg={6} className="py-5">
             <h1 className="text-white">About Me</h1>
             <hr className="pt-1 marginHR"></hr>
-            <Row>
+            <mdb.MDBRow>
               <p className="text-white ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam
@@ -42,10 +41,10 @@ export default function AboutMe() {
                 fringilla. Nullam eget felis eget nunc lobortis mattis aliquam
                 faucibus.
               </p>
-            </Row>
-          </Col>
-        </Row>
-      </Container>
+            </mdb.MDBRow>
+          </mdb.MDBCol>
+        </mdb.MDBRow>
+      </mdb.MDBContainer>
     </div>
   );
 }

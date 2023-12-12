@@ -1,11 +1,4 @@
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
-import InputGroup from "react-bootstrap/InputGroup";
-// import Card from "react-bootstrap/Card";
-// import Button from "react-bootstrap/Button";
+import * as mdb from "mdb-react-ui-kit";
 
 import Cards from "./reactPaths/cards";
 import AboutMe from "./aboutMeS";
@@ -25,27 +18,25 @@ function mySites(entry) {
 export default function Content() {
   return (
     <div>
-      <div>
-        <Container fluid className="deejay ">
-          <Row>
-            <Col>
+        <mdb.MDBContainer fluid className="deejay">
+          <mdb.MDBRow>
+            <mdb.MDBCol>
               <div className="mainHeader">
                 <h1 className="text-light title">Good Morning</h1>
                 <hr className="pt-2 marginHR"></hr>
-                {/* <h3 className="text-light ">Welcome!</h3> */}
                 <h3 className="text-warning pt-3">
                   Welcome to Ryan's Portfolio
                 </h3>
               </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+            </mdb.MDBCol>
+          </mdb.MDBRow>
+        </mdb.MDBContainer>
+    
       <AboutMe />
       <div className="contentBackground">
-        <Container className="p-5">
-          <Row className="  justify-content-lg-center text-center mb-5">
-            <Col>
+        <mdb.MDBContainer className="p-5">
+          <mdb.MDBRow className="  justify-content-lg-center text-center mb-5">
+            <mdb.MDBCol>
               <h1 className="text-white ">What I do</h1>
               <p className="text-white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -57,35 +48,32 @@ export default function Content() {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               {/* {sites.map(mySites)} */}
-            </Col>
-          </Row>
-          <Row className="justify-content-lg-center mt-5 text-center">
+            </mdb.MDBCol>
+          </mdb.MDBRow>
+          <mdb.MDBRow className="justify-content-lg-center mt-5 text-center">
             {sites.map(mySites)}
-          </Row>
+          </mdb.MDBRow>
 
-          <Row>
+          <mdb.MDBRow>
             <hr className="separateHR"></hr>
 
             <h1 className="text-white text-center mt-5">Want to Contact?</h1>
             <div className="mt-5">
-              <h4 className="text-white">Email Address:</h4>
-              <InputGroup>
-                <Form.Control
-                  size="lg"
+              {/* <h4 className="text-white">Email Address:</h4> */}
+              <mdb.MDBInputGroup size="lg">
+                
+                <input
                   type="input"
                   placeholder="Email Address"
-                  className=" bg-dark text-white"
-                ></Form.Control>
-                <Button
-                  as="input"
-                  type="submit"
-                  value="Submit"
-                  className="bg-dark"
+                  className="bg-dark text-white form-control"
                 />
-              </InputGroup>
+                <mdb.MDBBtn rounded color="dark" >
+                  Submit
+                </mdb.MDBBtn>
+              </mdb.MDBInputGroup>
             </div>
-          </Row>
-        </Container>
+          </mdb.MDBRow>
+        </mdb.MDBContainer>
       </div>
     </div>
   );

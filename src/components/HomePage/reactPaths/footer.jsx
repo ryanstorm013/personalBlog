@@ -1,6 +1,6 @@
-import Container from "react-bootstrap/Container";
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import * as mdb from "mdb-react-ui-kit";
+
+
 
 import socials from "./content/mySocials";
 import SocialButtons from "./content/socialButtons";
@@ -24,9 +24,9 @@ export default function Footer() {
           <h1>Visit my Socials</h1>
           {socials.map(theSocials)}
         </section>
-        <Container fluid>
+        <mdb.MDBContainer fluid>
 
-        </Container>
+        </mdb.MDBContainer>
         <div className="text-center p-3 footerColor text-white">
           Made by Ryan Reyes
         </div>

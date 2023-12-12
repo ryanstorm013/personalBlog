@@ -1,22 +1,18 @@
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-// import sites from "./developedSites";
+import * as mdb from "mdb-react-ui-kit";
 
 
 export default function Cards(myCard) {
     return (
         <>
 
-        <Col xs={8} s={6} lg={3}>
-            <Card style={{ width: "18rem" }} bg="dark" className="text-white  border border-dark ">
-              <Card.Img variant="top" src={myCard.image} alt={myCard.alt} className="cardImg"/>
-              <Card.Body>
-                <Card.Title>{myCard.title}</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
+        <mdb.MDBCol xs={8} s={6} lg={3}>
+            <mdb.MDBCard style={{ width: "18rem" }} background="dark" className="text-white  border border-dark ">
+              <mdb.MDBCardImage variant="top" src={myCard.image} alt={myCard.alt} className="cardImg"/>
+              <mdb.MDBCardBody>
+                <mdb.MDBCardTitle>{myCard.title}</mdb.MDBCardTitle>
+              </mdb.MDBCardBody>
+            </mdb.MDBCard>
+          </mdb.MDBCol>
           
         </>
     )

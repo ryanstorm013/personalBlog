@@ -1,5 +1,6 @@
 @import url("./fonts.css");
 
+
 /* Main Components */
 h1 {
    font-family: tarrgetacad, sans-serif; 
@@ -31,13 +32,18 @@ hr {
     border: 3px solid white;
 }
 
-::-webkit-input-placeholder {
+.thumbnailBorder {
+    border: 10px double #1A1A1D;
+    padding: 10px;
+    border-radius: 8px;
+}
+/* ::-webkit-input-placeholder {
     color: white;
 }
 
 ::placeholder {
     color: white;
-}
+} */
 
 .headerFont {
     font-family: bebas-neue, sans-serif;

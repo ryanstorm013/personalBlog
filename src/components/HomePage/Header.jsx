@@ -1,33 +1,42 @@
-// import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-import Container from "react-bootstrap/Container";
+import { useState } from "react";
+import * as mdb from "mdb-react-ui-kit";
+
 
 export default function Header() {
+  const [openNav, setOpenNav] = useState(false);
+
   return (
     <>
-      <Navbar
-        bg="dark"
-        data-bs-theme="dark"
-        className="bg-body-tertiary sticky-top"
-      >
-        <Container fluid>
+      <mdb.MDBNavbar dark sticky bgColor="dark" expand="lg">
+        <mdb.MDBContainer fluid>
           {/* <Row> */}
-          <Navbar.Brand>
+          <mdb.MDBNavbarBrand href="#">
             <h3 className="text-warning">EP</h3>
-          </Navbar.Brand>
-          <Nav className="headerFont">
-            <Nav.Link>About</Nav.Link>
-            <Nav.Link>Projects</Nav.Link>
-            <Nav.Link>Contact</Nav.Link>
-          </Nav>
+          </mdb.MDBNavbarBrand>
 
-         
-        </Container>
-      </Navbar>
+          <mdb.MDBNavbarToggler
+            type="button"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onClick={() => setOpenNav(!openNav)}
+          >
+            <mdb.MDBIcon icon="bars" fas />
+          </mdb.MDBNavbarToggler>
+          <mdb.MDBCollapse navbar open={openNav}>
+            <mdb.MDBNavbarNav className="headerFont">
+              <mdb.MDBNavbarItem className="ms-auto">
+                <mdb.MDBNavbarLink href="#about">About</mdb.MDBNavbarLink>
+              </mdb.MDBNavbarItem>
+              <mdb.MDBNavbarItem>
+                <mdb.MDBNavbarLink href="#projects">Projects</mdb.MDBNavbarLink>
+              </mdb.MDBNavbarItem>
+              <mdb.MDBNavbarItem>
+                <mdb.MDBNavbarLink href="#contact">Contacts</mdb.MDBNavbarLink>
+              </mdb.MDBNavbarItem>
+            </mdb.MDBNavbarNav>
+          </mdb.MDBCollapse>
+        </mdb.MDBContainer>
+      </mdb.MDBNavbar>
     </>
   );
 }
