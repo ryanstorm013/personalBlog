@@ -121,9 +121,13 @@ hr {
 /* Mobile Friendly */
 
 @media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
     .title {
         padding-top: 5%;
-        font-size: 5rem;
+        font-size: 4rem;
         text-align: left;
     }
 
@@ -134,7 +138,7 @@ hr {
     }
 
     .welcomeText {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: left;
     }
 
