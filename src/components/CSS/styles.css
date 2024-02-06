@@ -79,12 +79,13 @@ hr {
 
 .contentBackground {
     /* background-color: #6F2232; */
-    height: 100vh;
+    height: 100%;
     /* width: 100%; */
     background-image: url("../images/cardSection2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 
 
@@ -111,3 +112,6 @@ hr {
     background-color: #4E4E50;
 }
 
+.inputMargin {
+    margin-bottom: 100px;
+}

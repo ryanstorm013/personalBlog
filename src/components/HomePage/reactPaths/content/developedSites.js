@@ -1,30 +1,30 @@
 const sites = [
     {
         id: 1,
-        image: "/images/simonGame.png",
-        title: "Simon Game",
-        alt: "Simon"
+        image: "headphones",
+        title: "Music",
+        alt: "music"
     },
     {
         id: 2,
-        image: "/images/passwordGenerator.png",
-        title: "Password Generator",
-        alt: "Password"
+        image: "mouse-pointer",
+        title: "Web Development",
+        alt: "web"
     },
     {
         id: 3,
-        image: "/images/toDoList.png",
-        title: "To do List",
-        alt: "Todo"
+        image: "brush",
+        title: "Art",
+        alt: "art"
         
     },
-    {
-        id: 4, 
-        image: "/images/lazyloader.png",
-        title: "LazyLoader News",
-        alt: "LazyLoader"
+    // {
+    //     id: 4, 
+    //     image: "/images/lazyloader.png",
+    //     title: "LazyLoader News",
+    //     alt: "LazyLoader"
 
-    }
+    // }
     
     
 ];

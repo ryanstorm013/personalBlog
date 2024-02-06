@@ -10,7 +10,7 @@ export default function Header() {
       <mdb.MDBNavbar dark sticky bgColor="dark" expand="lg">
         <mdb.MDBContainer fluid>
           {/* <Row> */}
-          <mdb.MDBNavbarBrand href="#">
+          <mdb.MDBNavbarBrand href="#" className="hover-shadow">
             <h3 className="text-warning">EP</h3>
           </mdb.MDBNavbarBrand>
 
@@ -25,7 +25,7 @@ export default function Header() {
           <mdb.MDBCollapse navbar open={openNav}>
             <mdb.MDBNavbarNav className="headerFont">
               <mdb.MDBNavbarItem className="ms-auto">
-                <mdb.MDBNavbarLink href="#about">About</mdb.MDBNavbarLink>
+                <mdb.MDBNavbarLink href="#about" >About</mdb.MDBNavbarLink>
               </mdb.MDBNavbarItem>
               <mdb.MDBNavbarItem>
                 <mdb.MDBNavbarLink href="#projects">Projects</mdb.MDBNavbarLink>

@@ -59,8 +59,8 @@ export default function Content() {
 
             <h1 className="text-white text-center mt-5">Want to Contact?</h1>
             <div className="mt-5">
-              {/* <h4 className="text-white">Email Address:</h4> */}
-              <mdb.MDBInputGroup size="lg">
+              {/* <h4 className="text-white mt-5">Email Address:</h4> */}
+              <mdb.MDBInputGroup size="lg" className="mt-5 inputMargin">
                 
                 <input
                   type="input"

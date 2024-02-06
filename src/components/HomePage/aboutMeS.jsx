@@ -1,11 +1,6 @@
 import * as mdb from "mdb-react-ui-kit";
 
-
-
-
 export default function AboutMe() {
-
-  
   return (
     <div className="footerColor">
       <mdb.MDBContainer className=" py-3">
@@ -14,12 +9,12 @@ export default function AboutMe() {
             <img
               className="profilePic thumbnailBorder"
               src="./images/ColorTurntable.jpg"
-              
               alt="Mishima"
             />
           </mdb.MDBCol>
           <mdb.MDBCol md={8} lg={6} className="py-5">
             <h1 className="text-white">About Me</h1>
+            {/* <div className="vr" style="height: 250px;"></div> */}
             <hr className="pt-1 marginHR"></hr>
             <mdb.MDBRow>
               <p className="text-white ">
@@ -41,6 +36,11 @@ export default function AboutMe() {
                 fringilla. Nullam eget felis eget nunc lobortis mattis aliquam
                 faucibus.
               </p>
+            </mdb.MDBRow>
+            <mdb.MDBRow>
+              <mdb.MDBBtn outline rounded color="light">
+                Read More
+              </mdb.MDBBtn>
             </mdb.MDBRow>
           </mdb.MDBCol>
         </mdb.MDBRow>
