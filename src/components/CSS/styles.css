@@ -131,9 +131,9 @@ hr {
     }
 
     .title {
-        padding-top: 15%;
+        padding-top: 10%;
         font-size: 250%;
-        text-align: left;
+        text-align: center;
     }
 
     .deejay { 
@@ -143,12 +143,12 @@ hr {
     }
 
     .welcomeText {
-        font-size: 80%;
-        text-align: left;
+        font-size: 65%;
+        text-align: center;
     }
 
     .thumbnailBorder {
         width: 250px;
-        margin-left: 80px;
+
     }
 }
