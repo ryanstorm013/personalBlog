@@ -36,6 +36,7 @@ hr {
     border: 10px double #1A1A1D;
     padding: 10px;
     border-radius: 8px;
+    width: 500px;
 }
 /* ::-webkit-input-placeholder {
     color: white;
@@ -65,10 +66,10 @@ hr {
 }
 
 
-.profilePic {
-    width: 500px;
+/* .profilePic {
     
-}
+    
+} */
 
 .mainHeader {
     position: absolute;
@@ -117,8 +118,28 @@ hr {
 }
 
 
+/* Mobile Friendly */
+
 @media (max-width: 768px) {
     .title {
-        font-size: 4rem;
+        padding-top: 5%;
+        font-size: 5rem;
+        text-align: left;
+    }
+
+    .deejay { 
+        height: 50vh;
+        width: 70vh;
+        padding-left: 80px;
+    }
+
+    .welcomeText {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .thumbnailBorder {
+        width: 350px;
+        margin-left: 80px;
     }
 }

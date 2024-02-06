@@ -38,7 +38,7 @@ export default function Content() {
               <div className="mainHeader">
                 <h1 className="text-light title">{hourOutput}</h1>
                 <hr className="pt-2 marginHR"></hr>
-                <h3 className="text-warning pt-3">
+                <h3 className="text-warning pt-3 welcomeText">
                   Welcome to Ryan's Portfolio
                 </h3>
               </div>

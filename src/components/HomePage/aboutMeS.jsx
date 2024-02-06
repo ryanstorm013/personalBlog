@@ -7,7 +7,7 @@ export default function AboutMe() {
         <mdb.MDBRow>
           <mdb.MDBCol md={8} lg={6}>
             <img
-              className="profilePic thumbnailBorder"
+              className="thumbnailBorder"
               src="./images/ColorTurntable.jpg"
               alt="Mishima"
             />
