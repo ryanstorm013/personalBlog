@@ -32,7 +32,7 @@ export default function Content() {
   const hourOutput = myTime();
   return (
     <div>
-        <mdb.MDBContainer className="deejay">
+        <mdb.MDBContainer >
           {/* <mdb.MDBRow>
             <mdb.MDBCol size='4'> */}
               <div className="mainHeader">
