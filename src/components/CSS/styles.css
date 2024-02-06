@@ -138,12 +138,13 @@ hr {
 
     .deejay { 
         height: 50vh;
-        width: 55vh;
-        background-size: 80% 200px;
+        
+        background-size: cover;
+        /* background-attachment: fixed; */
     }
 
     .welcomeText {
-        font-size: 65%;
+        font-size: 90%;
         text-align: center;
     }
 
