@@ -15,21 +15,35 @@ function mySites(entry) {
   );
 }
 
+function myTime() {
+  const currentHour = new Date().getHours()
+  if (currentHour >= 5 && currentHour < 12 ) {
+    return 'Good Morning';
+  } else if (currentHour >= 12 && currentHour < 18) {
+    return 'Good Afternoon';
+  } else {
+    return 'Good evening';
+  }
+}
+
+
+
 export default function Content() {
+  const hourOutput = myTime();
   return (
     <div>
         <mdb.MDBContainer fluid className="deejay">
-          <mdb.MDBRow>
-            <mdb.MDBCol>
+          {/* <mdb.MDBRow>
+            <mdb.MDBCol size='4'> */}
               <div className="mainHeader">
-                <h1 className="text-light title">Good Morning</h1>
+                <h1 className="text-light title">{hourOutput}</h1>
                 <hr className="pt-2 marginHR"></hr>
                 <h3 className="text-warning pt-3">
                   Welcome to Ryan's Portfolio
                 </h3>
               </div>
-            </mdb.MDBCol>
-          </mdb.MDBRow>
+            {/* </mdb.MDBCol>
+          </mdb.MDBRow> */}
         </mdb.MDBContainer>
     
       <AboutMe />

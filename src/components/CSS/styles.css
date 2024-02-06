@@ -115,3 +115,10 @@ hr {
 .inputMargin {
     margin-bottom: 100px;
 }
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 4rem;
+    }
+}
