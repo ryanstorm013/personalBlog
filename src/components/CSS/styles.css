@@ -139,7 +139,7 @@ hr {
     .deejay { 
         height: 50vh;
         width: 55vh;
-        background-size: 400px 50%;
+        background-size: 80% 200px;
     }
 
     .welcomeText {
