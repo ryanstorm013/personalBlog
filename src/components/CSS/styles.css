@@ -126,8 +126,8 @@ hr {
     }
 
     .title {
-        padding-top: 5%;
-        font-size: 2.5rem;
+        padding-top: 15%;
+        font-size: 250%;
         text-align: left;
     }
 
@@ -138,7 +138,7 @@ hr {
     }
 
     .welcomeText {
-        font-size: 1rem;
+        font-size: 80%;
         text-align: left;
     }
 
