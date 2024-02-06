@@ -129,8 +129,8 @@ hr {
 
     .deejay { 
         height: 50vh;
-        width: 70vh;
-        padding-left: 80px;
+        width: 55vh;
+        background-size: auto;
     }
 
     .welcomeText {
