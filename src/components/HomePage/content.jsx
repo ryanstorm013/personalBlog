@@ -33,8 +33,8 @@ export default function Content() {
   return (
     <div>
         <mdb.MDBContainer fluid className="deejay">
-          {/* <mdb.MDBRow>
-            <mdb.MDBCol size='4'> */}
+          <mdb.MDBRow>
+            <mdb.MDBCol size='4'>
               <div className="mainHeader">
                 <h1 className="text-light title">{hourOutput}</h1>
                 <hr className="pt-2 marginHR"></hr>
@@ -42,8 +42,8 @@ export default function Content() {
                   Welcome to Ryan's Portfolio
                 </h3>
               </div>
-            {/* </mdb.MDBCol>
-          </mdb.MDBRow> */}
+            </mdb.MDBCol>
+          </mdb.MDBRow>
         </mdb.MDBContainer>
     
       <AboutMe />
