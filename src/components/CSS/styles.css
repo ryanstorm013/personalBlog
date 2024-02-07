@@ -131,7 +131,9 @@ hr {
     }
 
     .mainHeader {
-        left: 0
+        top: 35%;
+        left: 0;
+        
     }
 
     .title {
@@ -153,7 +155,7 @@ hr {
     }
 
     .thumbnailBorder {
-        width: 250px;
-        margin: auto
+        width: 50%;
+        margin-left: 25%
     }
 }
