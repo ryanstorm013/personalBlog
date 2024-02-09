@@ -48,6 +48,11 @@ hr {
     margin-top: -15px;
 }
 
+.otherHR {
+    border: 3px solid white;
+    
+}
+
 .separateHR {
     margin-top: 70px;
     border: 20px solid white;
@@ -59,10 +64,7 @@ hr {
 }
 
 
-/* .profilePic {
-    
-    
-} */
+
 
 .mainHeader {
     position: absolute;
@@ -123,9 +125,10 @@ hr {
         font-size: 1.0rem
     }
 
-    .marginHR {
+    .otherHR {
         /* margin-top: 0; */
-        width: 170%;
+
+        width: 180%;
     }
     .mainHeader {
         top: 100%;
@@ -135,8 +138,8 @@ hr {
 
     .title {
         
-        margin-top: 30px;
-        font-size: 250%;
+        margin-top: 40px;
+        font-size: 200%;
         /* position: absolute; */
         text-align: left;
     }
@@ -149,7 +152,7 @@ hr {
     }
 
     .welcomeText {
-        font-size: 15px;
+        font-size: 10px;
         text-align: left;
         margin-top: -20px;
         
