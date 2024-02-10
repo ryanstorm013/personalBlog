@@ -6,7 +6,7 @@ export default function Cards(myCard) {
         <>
 
         <mdb.MDBCol sm={12} md={3} lg={3} className="cardPad">
-            <mdb.MDBCard style={{ width: "18rem" }} background="dark" className="text-white  border border-dark ">
+            <mdb.MDBCard  background="dark" className="text-white  border border-dark cardSize">
               {/* <mdb.MDBCardImage variant="top" src={myCard.image} alt={myCard.alt} className="cardImg"/> */}
               <mdb.MDBIcon icon={myCard.image} size="8x" className="mt-5"/> 
               
