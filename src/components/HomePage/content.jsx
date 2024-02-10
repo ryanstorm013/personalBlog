@@ -51,8 +51,8 @@ export default function Content() {
         <mdb.MDBContainer className="p-5">
           <mdb.MDBRow className="  justify-content-lg-center text-center mb-5">
             <mdb.MDBCol>
-              <h1 className="text-white ">What I do</h1>
-              <p className="text-white">
+              <h1 className="text-white aboutText">What I do</h1>
+              <p className="text-white aboutPara">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -64,14 +64,13 @@ export default function Content() {
               {/* {sites.map(mySites)} */}
             </mdb.MDBCol>
           </mdb.MDBRow>
-          <mdb.MDBRow className="justify-content-lg-center mt-5 text-center">
+          <mdb.MDBRow className="justify-content-lg-center text-center">
             {sites.map(mySites)}
           </mdb.MDBRow>
 
           <mdb.MDBRow>
             <hr className="separateHR"></hr>
-
-            <h1 className="text-white text-center mt-5">Want to Contact?</h1>
+            <h1 className="text-white text-center mt-5 aboutText">Want to Contact?</h1>
             <div className="mt-5">
               {/* <h4 className="text-white mt-5">Email Address:</h4> */}
               <mdb.MDBInputGroup size="lg" className="mt-5 inputMargin">

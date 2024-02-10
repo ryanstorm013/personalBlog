@@ -5,19 +5,20 @@ export default function AboutMe() {
     <div className="footerColor">
       <mdb.MDBContainer className=" py-3">
         <mdb.MDBRow>
-          <mdb.MDBCol md={8} lg={6}>
+          <mdb.MDBCol md={12} lg={6}>
             <img
               className="thumbnailBorder"
               src="./images/ColorTurntable.jpg"
               alt="Mishima"
             />
           </mdb.MDBCol>
-          <mdb.MDBCol md={8} lg={6} className="py-5">
-            <h1 className="text-white">About Me</h1>
+        
+          <mdb.MDBCol md={12} lg={6} className="py-5">
+            <h1 className="text-white aboutText">About Me</h1>
             {/* <div className="vr" style="height: 250px;"></div> */}
             <hr className="pt-1 marginHR"></hr>
-            <mdb.MDBRow>
-              <p className="text-white ">
+            {/* <mdb.MDBRow> */}
+              <p className="text-white aboutPara">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam
                 nulla porttitor massa id neque aliquam. Elementum curabitur
@@ -36,11 +37,11 @@ export default function AboutMe() {
                 fringilla. Nullam eget felis eget nunc lobortis mattis aliquam
                 faucibus.
               </p>
-            </mdb.MDBRow>
+            {/* </mdb.MDBRow> */}
             <mdb.MDBRow>
               <mdb.MDBBtn outline rounded color="light">
                 Read More
-              </mdb.MDBBtn>
+              </mdb.MDBBtn> 
             </mdb.MDBRow>
           </mdb.MDBCol>
         </mdb.MDBRow>

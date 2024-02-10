@@ -11,7 +11,7 @@ export default function Header() {
         <mdb.MDBContainer fluid>
           {/* <Row> */}
           <mdb.MDBNavbarBrand href="#" className="hover-shadow">
-            <h3 className="text-warning">EP</h3>
+            <h3 className="text-warning">RR</h3>
           </mdb.MDBNavbarBrand>
 
           <mdb.MDBNavbarToggler

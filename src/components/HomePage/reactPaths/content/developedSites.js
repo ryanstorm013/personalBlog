@@ -18,13 +18,13 @@ const sites = [
         alt: "art"
         
     },
-    // {
-    //     id: 4, 
-    //     image: "/images/lazyloader.png",
-    //     title: "LazyLoader News",
-    //     alt: "LazyLoader"
+    {
+        id: 4, 
+        image: "cube",
+        title: "3D Art",
+        alt: "3D Art"
 
-    // }
+    }
     
     
 ];

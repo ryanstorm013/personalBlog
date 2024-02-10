@@ -34,6 +34,7 @@ hr {
 
 .thumbnailBorder {
     border: 10px double #1A1A1D;
+    margin-top: 3vh;
     padding: 10px;
     border-radius: 8px;
     width: 500px;
@@ -44,13 +45,14 @@ hr {
     font-size: 30px;
 }
 
+/* hr tags */
 .marginHR {
     margin-top: -15px;
 }
 
 .otherHR {
     border: 3px solid white;
-    
+    width: 85vh;
 }
 
 .separateHR {
@@ -60,7 +62,7 @@ hr {
 }
 
 .title {
-    font-size: 8rem;
+    font-size: 10vh;
 }
 
 
@@ -114,9 +116,14 @@ hr {
 }
 
 
+.cardPad {
+    /* margin-right: 1rem; */
+    margin-top: 2rem;
+}
+
 /* Mobile Friendly */
 
-@media (max-width: 768px) {
+@media all and (min-width:960px) and (max-width: 1024px) {
     h1 {
         font-size: 2rem;
     }
@@ -127,6 +134,341 @@ hr {
 
     .otherHR {
         /* margin-top: 0; */
+        width: 180%;
+    }
+    .mainHeader {
+        top: 60%;
+        position: relative;
+        text-align: center;
+    }
+
+    .title {
+        text-align: left;
+        font-size: 4.5rem;
+        
+    }
+
+    .deejay { 
+        height: 60vh;
+        
+        background-size: 100%;
+        /* background-attachment: fixed; */
+    }
+
+    .welcomeText {
+        font-size: 1.8rem;
+        text-align: left;
+        margin-top: -20px;
+        
+
+    }
+
+    .thumbnailBorder {
+        width: 75%;
+        text-align: center;
+        margin-left: 8vh;
+        
+    }
+
+    .aboutText {
+        text-align: center;
+        font-size: 4rem;
+        /* padding-right: -10rem; */
+    }
+
+    .aboutPara {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .cardPad{
+        margin-right: 8rem;
+        margin-top: 1.5rem;
+        
+        /* padding-left: 2rem; */
+    }
+}
+
+
+@media all and (min-width:801px) and (max-width: 959px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.0rem
+    }
+
+    .otherHR {
+        width: 180%;
+    }
+    .mainHeader {
+        top: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .title {
+        /* margin-top: 25%; */
+        font-size: 3.5rem;  
+        text-align: left;
+    }
+
+    .deejay { 
+        height: 50vh;
+        background-size: 100%;
+        
+    }
+
+    .welcomeText {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-top: -20px;
+        
+        position: absolute;
+    }
+
+    .thumbnailBorder {
+        width: 50%;
+        margin-left: 25%
+    }
+
+    .aboutText {
+        text-align: center;
+        font-size: 4rem;
+        /* padding-right: -10rem; */
+    }
+
+    .aboutPara {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .cardPad{
+        margin-right: 10rem;
+        margin-top: 1.5rem;
+        
+        /* padding-left: 2rem; */
+    }
+}   
+
+
+@media all and (min-width:769px) and (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.0rem
+    }
+
+    .otherHR {
+        width: 180%;
+    }
+    .mainHeader {
+        top: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .title {
+        
+        margin-top: 15%;
+        font-size: 3.2rem;  
+        
+        text-align: left;
+    }
+
+    .deejay { 
+        height: 50vh;     
+        background-size: 100%;
+        
+    }
+
+    .welcomeText {
+        font-size: 1.3rem;
+        text-align: left;
+        margin-top: -20px;
+        
+        position: absolute;
+    }
+
+    .thumbnailBorder {
+        width: 50%;
+        margin-left: 25%
+    }
+
+    .aboutText {
+        text-align: center;
+        font-size: 4rem;
+        /* padding-right: -10rem; */
+    }
+
+    .aboutPara {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .cardPad{
+        margin-right: 10rem;
+        margin-top: 1.5rem;
+        
+        /* padding-left: 2rem; */
+    }
+}
+
+
+
+
+
+@media all and (min-width:569px) and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.0rem
+    }
+
+    .otherHR {
+        
+
+        width: 180%;
+    }
+    .mainHeader {
+        top: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .title {
+        
+        margin-top: 15%;
+        font-size: 2.8rem;  
+       
+        text-align: left;
+    }
+
+    .deejay { 
+        height: 50vh;
+        
+        background-size: 100%;
+        
+    }
+
+    .welcomeText {
+        font-size: 1.3rem;
+        text-align: left;
+        margin-top: -20px;
+        
+        position: absolute;
+    }
+
+    .thumbnailBorder {
+        width: 60%;
+        margin-left: 20%
+    }
+
+    .aboutText {
+        text-align: center;
+        font-size: 4rem;
+        /* padding-right: -10rem; */
+    }
+
+    .aboutPara {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .cardPad{
+        /* margin-right: .2rem; */
+        /* margin-top: 1.5rem; */
+        
+        padding-left: 6rem;
+    }
+}
+
+
+@media all and (min-width:481px) and (max-width: 568px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.0rem
+    }
+
+    .otherHR {
+
+
+        width: 180%;
+    }
+    .mainHeader {
+        top: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .title {
+        
+        margin-top: 25%;
+        font-size: 2.5rem;
+
+        text-align: left;
+    }
+
+    .deejay { 
+        height: 50vh;
+        
+        background-size: 100%;
+
+    }
+
+    .welcomeText {
+        font-size: 1rem;
+        text-align: left;
+        margin-top: -20px;
+        
+        position: absolute;
+    }
+
+    .thumbnailBorder {
+        width: 50%;
+        margin-left: 25%
+    }
+    
+
+    .aboutText {
+        text-align: center;
+        font-size: 2rem;
+        /* padding-right: -10rem; */
+    }
+
+    .aboutPara {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .cardPad{
+        /* margin-right: .2rem; */
+        /* margin-top: 1.5rem; */
+        
+        padding-left: 4rem;
+    }
+}
+  
+/* 
+@media all and (min-width:321px) and (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.0rem
+    }
+
+    .otherHR {
+
 
         width: 180%;
     }
@@ -140,7 +482,6 @@ hr {
         
         margin-top: 25%;
         font-size: 200%;
-        /* position: absolute; */
         text-align: left;
     }
 
@@ -148,7 +489,7 @@ hr {
         height: 50vh;
         
         background-size: 100%;
-        /* background-attachment: fixed; */
+        
     }
 
     .welcomeText {
@@ -164,3 +505,52 @@ hr {
         margin-left: 25%
     }
 }
+  
+@media all and (min-width:0px) and (max-width: 320px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.0rem
+    }
+
+    .otherHR {
+        
+
+        width: 180%;
+    }
+    .mainHeader {
+        top: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .title {
+        
+        margin-top: 25%;
+        font-size: 200%;
+        
+        text-align: left;
+    }
+
+    .deejay { 
+        height: 50vh;
+        
+        background-size: 100%;
+        
+    }
+
+    .welcomeText {
+        font-size: 10px;
+        text-align: left;
+        margin-top: -20px;
+        
+        position: absolute;
+    }
+
+    .thumbnailBorder {
+        width: 50%;
+        margin-left: 25%
+    }
+} */
