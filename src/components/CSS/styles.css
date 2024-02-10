@@ -457,7 +457,7 @@ hr {
     }
 }
   
-/* 
+
 @media all and (min-width:321px) and (max-width: 480px) {
     h1 {
         font-size: 2rem;
@@ -473,7 +473,7 @@ hr {
         width: 180%;
     }
     .mainHeader {
-        top: 100%;
+        top: 150%;
         position: relative;
         text-align: center;
     }
@@ -493,7 +493,7 @@ hr {
     }
 
     .welcomeText {
-        font-size: 10px;
+        font-size: 1rem;
         text-align: left;
         margin-top: -20px;
         
@@ -504,8 +504,27 @@ hr {
         width: 50%;
         margin-left: 25%
     }
+
+    .aboutText {
+        text-align: center;
+        font-size: 2rem;
+        /* padding-right: -10rem; */
+    }
+
+    .aboutPara {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .cardPad{
+        /* margin-right: .2rem; */
+        /* margin-top: 1.5rem; */
+        
+        padding-left: 3rem;
+    }
 }
-  
+
+
 @media all and (min-width:0px) and (max-width: 320px) {
     h1 {
         font-size: 2rem;
@@ -521,15 +540,15 @@ hr {
         width: 180%;
     }
     .mainHeader {
-        top: 100%;
+        top: 200%;
         position: relative;
         text-align: center;
     }
 
     .title {
         
-        margin-top: 25%;
-        font-size: 200%;
+        margin-top: 35%;
+        font-size: 1.5rem;
         
         text-align: left;
     }
@@ -553,4 +572,22 @@ hr {
         width: 50%;
         margin-left: 25%
     }
-} */
+
+    .aboutText {
+        text-align: center;
+        font-size: 2rem;
+        /* padding-right: -10rem; */
+    }
+
+    .aboutPara {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .cardPad{
+        /* margin-right: .2rem; */
+        /* margin-top: 1.5rem; */
+        
+        padding-left: 0;
+    }
+}
