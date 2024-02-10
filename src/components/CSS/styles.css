@@ -480,7 +480,7 @@ hr {
         width: 180%;
     }
     .mainHeader {
-        top: 150%;
+        top: 130%;
         position: relative;
         text-align: center;
     }
@@ -546,19 +546,18 @@ hr {
     }
 
     .otherHR {
-        
 
         width: 180%;
     }
     .mainHeader {
-        top: 200%;
+        top: 10rem;
         position: relative;
         text-align: center;
     }
 
     .title {
         
-        margin-top: 10%;
+        margin-top: 6vh;
         /* margin-bottom: auto; */
         font-size: 1.5rem;
         
@@ -600,7 +599,7 @@ hr {
         /* margin-right: .2rem; */
         /* margin-top: 1.5rem; */
         
-        padding-left: -10rem;
+        
     }
 
     .cardSize {
