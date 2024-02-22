@@ -12,7 +12,11 @@ export default function Cards(myCard) {
               
               <mdb.MDBCardBody>
                 <mdb.MDBCardTitle>{myCard.title}</mdb.MDBCardTitle>
-                <mdb.MDBCardText>Taco Bell</mdb.MDBCardText>
+                {/* <mdb.MDBCardText>Taco Bell</mdb.MDBCardText> */}
+
+                <mdb.MDBBtn className="bg-secondary mt-3">
+                  <a className="text-black">Button</a>
+                </mdb.MDBBtn>
               </mdb.MDBCardBody>
             </mdb.MDBCard>
           </mdb.MDBCol>
