@@ -2,7 +2,7 @@
   "name": "ryan-s-real-blog-site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/ryanstorm013/personalBlog.git",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "vite",
