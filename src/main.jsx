@@ -6,9 +6,10 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./components/CSS/styles.css"
 import "./components/HomePage/Header.jsx"
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode >
+  <BrowserRouter >
     <App className="contentBackground"/>
-  </React.StrictMode>,
+  </BrowserRouter>,
 )
